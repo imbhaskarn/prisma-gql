@@ -1,0 +1,14 @@
+{
+  "name": "prisma-gql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prisma": "^4.9.0"
+  }
+}
