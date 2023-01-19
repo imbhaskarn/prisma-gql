@@ -2,13 +2,25 @@
   "name": "prisma-gql",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
-    "test": "npm run start"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imbhaskarn/prisma-gql.git"
+  },
+  "keywords": [],
+  "author": "Bhaskar Sharma",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imbhaskarn/prisma-gql/issues"
+  },
+  "homepage": "https://github.com/imbhaskarn/prisma-gql#readme",
   "dependencies": {
+    "@apollo/server": "^4.3.0",
+    "graphql": "^16.6.0",
     "prisma": "^4.9.0"
   }
 }
